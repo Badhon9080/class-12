@@ -1,0 +1,266 @@
+/* Common Css Start */
+*{
+    margin: 0;
+    padding: 0:
+    outline: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+} 
+
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    
+   
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.text-center{
+    text-align: center;
+}
+.sec_ttl h2{
+    font-size: 46px;
+    color: #02918c;
+    text-transform:uppercase;
+    font-weight: 800;
+}
+
+.sec_ttl p{
+    font-size: 16px;
+    color: #7e8287;
+    margin: auto;
+    line-height: 41px;
+}
+.sec_ttl p span{
+    font-weight: 800;
+    font-size: 23px;
+}
+
+
+
+/* //Common Css End */
+
+
+
+/* Nav Section Css Start */
+
+nav{
+     background-color: #02918c;
+}
+
+nav > .container > .row{
+    align-items: center;
+}
+
+nav .logo{
+    width: 25%;
+    
+}
+nav .logo img{
+    display: block;
+}
+
+
+
+nav .menu{
+    width: 75%;
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 25px;
+    margin: 12px 0;
+    transition: all .3s linear;
+    border-radius: 25px;
+}
+
+nav .menu ul li:hover a{
+    background-color: #ccc4b9;
+}
+
+/*// Nav Section Css End */
+
+
+
+
+
+/* Banner Section Css Start */
+#banner{
+    height: 728px;
+     background: url(../images/banner.jpg);
+     background-size: cover;
+     
+     position: relative;
+     z-index: 2;
+}
+#banner::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.66);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+#banner .container,
+#banner .container .row{
+    height: 100%
+}
+
+#banner .container > .row{
+    align-items: center;
+}
+#banner .bannner_content{
+    width: 100%;
+    color: #fff;
+}
+#banner .bannner content h6{
+        font-size: 30px;
+        font-weight: 800;
+}
+
+
+
+#banner .bannner_content h1{
+      font-size: 68px;
+      font-weight: 800;
+      letter-spacing: 30px;
+      text-transform: uppercase;
+}
+
+
+
+#banner .bannner_content img.banner_shape
+{
+    display: block;
+    margin: auto;
+    padding: 20px 0;
+}
+#banner .bannner_content a{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    padding: 10px 52px;
+    background-color: #cfc91d;
+}
+
+
+/* //Banner Section Css End */
+
+/* About Section Css Start */
+#about .sec_ttl p{
+    width: 874px;
+}
+#about .about_item{
+    width: 25%;
+    padding: 37px 65px;
+    border-right: 1px solid #5e6767;
+    margin-top: 50px;
+}
+
+#about .about_item:last-child{
+    border-color: transparent;
+}
+
+
+/* //About Section Css End */
+
+
+
+
+
+/* Service Section Css Start */
+#service{
+    background-image: url(../images/service_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: right center;
+    positon: relative;
+}
+#service::after{
+    content: '';
+    position: absolute;
+    width: 50%
+    height: 100%
+    top: 0;
+    right: 0;
+    background-color: rgba(240, 240, 232, .7)
+}
+
+
+
+#service .service_content{
+    width: 50%;
+}
+
+#service .service_item_container .service_item{
+    width: 50%
+}
+
+
+/* //Service Section Css End */
+
+/* My Work Section Css Start */
+
+#mywork .work_item{
+    width: 25%
+    position: relative;
+}
+#mywork .work_item img{
+    width:100%
+    display: block;
+    
+}
+
+
+#mywork .work_item .overlay{
+    position: absolute;
+     left: 27px;
+     right: 27px
+     top: 20px;
+     bottom: 20px;
+
+    background-color: #02918c;
+    
+
+}
+
+
+
+
+/* //My Work Section Css Start */
